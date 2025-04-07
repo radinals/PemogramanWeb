@@ -1,0 +1,88 @@
+.hidden {
+  opacity: 0%;
+}
+
+.shown {
+  opacity: 0%; }
+
+.shown:hover {
+  opacity: 100%;
+}
+
+#btn_keatas {
+  position: fixed;
+  bottom:5%;
+  right:3%;
+  border: solid orangered 2px;
+  background: orange;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+#header {
+  min-height: 20%;
+  max-width: 100%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#header h1 {
+  font-size: 80px;
+  color: white;
+}
+
+#page_body {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  min-height: 70%;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+#sidebar {
+  min-width: 15%;
+  max-width: 15%;
+  border: solid 0px;
+}
+
+#sidebar-kanan {
+  min-width: 15%;
+  max-width: 15%;
+  border: solid 0px;
+  border-radius: 40px;
+  background: linear-gradient(75deg, #FF0000, #00FF00, #0000FF);
+}
+
+#sidebar ul {
+  list-style: none;
+  justify-content: center;
+  align-content: center;
+  margin:auto;
+}
+
+#sidebar ul li {
+  margin: 30px 0;
+}
+
+#sidebar ul a {
+  color:white;
+  text-decoration: none;
+  background: #AABBCC;
+  padding: 5px;
+  border: solid 2px #FFF;
+}
+
+#content {
+  min-width: 50%;
+  max-width: 50%;
+  padding:0 100px;
+  color: white;
+
+}
+
+body {
+  background: #444444;
+}

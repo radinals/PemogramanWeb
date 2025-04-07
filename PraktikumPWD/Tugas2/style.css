@@ -1,0 +1,189 @@
+body {
+  background: #000000;
+  margin: 1px;
+}
+
+header {
+  background-color: black;
+  min-height: 70px;
+  min-width: 100vw;
+  align-items: center;
+  align-content: center;
+}
+
+header h1 {
+  padding: 1%;
+  color: white;
+  font-family: Tahoma, sans-serif;
+}
+
+nav {
+  background: #808080;
+  display: flex;
+  justify-content: right; 
+  align-items: center; 
+  height: 50px; 
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 15px; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 18px;
+}
+
+
+section {
+  display: flex;
+  flex-direction: row;
+  height:100vh;
+  margin: 5px 3px;
+  gap:5px;
+}
+
+article {
+  color: white;
+  background: #505050;
+  width: 85%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-article {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-article .head {
+  width: 100%;
+  height: 10%
+}
+
+.home-article .head h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.home-article .content {
+  width: 100%;
+  height: 90%
+}
+
+.home-article .content aside {
+  float:right;
+}
+
+.home-article .content aside iframe {
+  width:500px;
+  height:500px;
+}
+
+.biodata-article {
+  display: flex;
+  justify-content:center;
+  align-content:center;
+}
+
+.other-article {
+  display: flex;
+  flex-direction: column;
+  grid: 10px;
+}
+
+
+.other-article #row #col img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.other-article #row #col {
+  border: 1px solid white;
+  height: 100%;
+  width: 50%;
+}
+
+.other-article #row {
+  margin: auto;
+  height: 30%;
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+}
+
+.biodata-article table {
+  font-size: 30px;
+  text-align: left;
+  width:80%;
+  margin:auto;
+  background: black;
+  border-radius: 100px;
+  padding:10%;
+}
+
+.biodata-article thead h1 {
+  text-align: center;
+}
+
+#sidebar {
+  width: 15%;
+  max-width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-top {
+  height: 50%;
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.sidebar-center {
+  background: black;
+  color: white;
+  text-align: center;
+  font-style: bold;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-bottom {
+  background: black;
+  height: 10%;
+  width: 100%;
+}
+
+.sidebar-card {
+  width: 100%;
+  height: 20%;
+  background: #505050;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+footer {
+  background: grey;
+  min-height: 100px;
+  min-width: 100vw;
+}
+
+
