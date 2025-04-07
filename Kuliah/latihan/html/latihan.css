@@ -1,0 +1,25 @@
+
+.FOO {
+  /* color: green; */
+  font-weight: bold;
+}
+
+ol ~ li {
+  color: green;
+}
+
+li a:hover, li:hover {
+  color: white;
+}
+
+ul li:nth-of-type(3n) a {
+  color: yellow;
+}
+
+ol li:first-child a {
+  color: #FF0000;
+}
+
+p span:first-child {
+  background: cyan;
+}

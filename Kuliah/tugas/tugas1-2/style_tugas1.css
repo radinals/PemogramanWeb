@@ -1,0 +1,95 @@
+table {
+  text-align: center;
+  border-collapse: collapse;
+  color: #FFF;
+  margin: -1px;;
+}
+
+.rowtabeldalam  {
+  background: #FFF;
+  padding: 10px;
+}
+
+.headtabeldalam th {
+  text-align: center;
+  border: 1px solid #000;
+  background: #FF0000;
+  color: #FFF;
+  padding: 10px;
+
+}
+
+.bodytabeldalam td {
+  background: #FFF;
+}
+
+.rowtotal td{
+  background: #FFF;
+}
+
+.headtabel th {
+  text-align: center;
+  border: 1px solid #000;
+  background: #0000FF;
+  padding:10px;
+}
+
+thead th {
+  text-align: center;
+  border: 1px solid #000;
+  color: #FFF;
+  background: green;
+  padding: 10px;
+
+}
+
+tfoot td {
+  background: #FFFFFF;
+}
+
+tbody td{
+  border: 1px solid #000;
+}
+
+.tabelGrid tbody tr td:hover{
+  background-color: cyan;
+}
+
+#tabelToko tbody tr:nth-child(even):hover>td{
+  background-color: cyan;
+}
+
+#tabelToko tbody tr:nth-child(odd):hover>td{
+  background-color: violet;
+}
+
+#tabelToko tbody tr:first-child>td:last-child {
+  background-color: #FFF;;
+}
+
+thead {
+  border: 1px solid #000;
+  background: #0000FF;
+}
+
+tbody tr {
+  padding: 10px;
+  color:black;
+}
+
+.tabelkonten tbody tr:nth-of-type(even) {
+  background: #FFFF00;
+}
+
+.tabelkonten tbody tr:nth-of-type(odd) {
+  background: #FF0000;
+}
+
+.tabelGrid {
+  margin:10px;
+}
+
+.tabelGrid td {
+  padding: 10px;
+  background: #FFF;
+}
